@@ -114,6 +114,7 @@ export default {
   margin-bottom: 0.3rem;
   font-weight: 500;
   letter-spacing: 1px;
+  text-align: left;
 }
 .form-group input,
 .form-group textarea {
