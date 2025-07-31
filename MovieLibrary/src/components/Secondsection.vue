@@ -15,7 +15,7 @@
         <button class="close-btn">×</button>
         <div class="movie-info">
           <h3>Batman Returns</h3>
-          <p>Lorem ipsum dolor sit amet,  consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut…</p>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut…</p>
         </div>
       </div>
       <!-- Wild West Card -->
@@ -24,7 +24,7 @@
         <button class="close-btn">×</button>
         <div class="movie-info">
           <h3>Wild Wild Wes t</h3>
-          <p>Lorem ipsum dolor sit a met , consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut…</p>
+          <p>Lorem ipsum dolor sit a met, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut…</p>
         </div>
       </div>
       <!-- Spiderman Card -->
