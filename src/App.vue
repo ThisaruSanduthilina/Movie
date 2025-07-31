@@ -4,6 +4,7 @@
     <Hero />
     <Secondsection/>
     <Reach/>
+    <Footer/>
   </div>
 </template>
 
@@ -13,6 +14,7 @@ import Header from './components/Header.vue'
 import Hero from './components/Hero.vue'
 import Secondsection from './components/Secondsection.vue'
 import Reach from './components/Reach.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
@@ -20,7 +22,8 @@ export default {
     Header,
     Hero,
     Secondsection,
-    Reach
+    Reach,
+    Footer
   }
 }
 </script>

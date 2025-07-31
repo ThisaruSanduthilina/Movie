@@ -99,15 +99,11 @@ export default {
       try {
         const res = await fetch(`${API_URL}?api_key=${API_KEY}&query=${encodeURIComponent(this.query)}`);
         const data = await res.json();
-        // Add new movies to the grid, keeping existing ones (no duplicates)
+        // Replace movies with search results (show only search results in 3 cards)
         if (data.results && data.results.length) {
-          data.results.forEach(apiMovie => {
-            if (!this.movies.some(m => m.id === apiMovie.id)) {
-              this.movies.push(apiMovie);
-            }
-          });
+          this.movies = data.results;
+          this.page = 0;
         }
-        this.page = 0;
       } catch (error) {
         console.error('Failed to fetch movies:', error);
       }
