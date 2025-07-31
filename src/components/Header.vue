@@ -18,7 +18,7 @@
         <li><a href="#home">HOME</a></li>
         <li><a href="#screens">OUR SCREENS</a></li>
         <li><a href="#schedule">SCHEDULE</a></li>
-        <li><a href="#library"><u>MOVIE LIBRARY</u></a></li>
+        <li><a href="#library">MOVIE LIBRARY</a></li>
         <li><a href="#contact">LOCATION & CONTACT</a></li>
       </ul>
     </nav>
